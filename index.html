@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <!--Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!--My Style CSS Link -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1>
+                <i class="glyphicon glyphicon-heart"></i> What Makes Your Heart Happy!
+                <i class="glyphicon glyphicon-heart"></i>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-21 col-md-12 col-lg-12" id="button-display"></div>
+        </div>
+    
+    <br>
+   
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                <div class="col-md-12" id="gifs-appear-here"></div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <form id="form">
+                    <label for="user-input" id="term-txt">Add a term that makes your heart happy!</label>
+                    <br>
+                    <input type="text" class="form-control" id="input-from-user" placeholder="Enter Term Here">
+                    <br>
+                    <input id="addHappyBtn" type="submit" value="Submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Link to JS -->
+    <script src="assets/javascript/index.js"></script>
+</body>
+
+</html>

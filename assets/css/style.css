@@ -1,0 +1,39 @@
+body {
+    font-family: 'Satisfy', cursive;
+    background-color:#DFDCE3;
+}
+
+.jumbotron {
+    background-color:  #fff1b5;
+    color: white;
+    text-shadow: 3px 2px 4px #777;  
+}
+
+.btn {
+    margin: 5px;  
+    text-shadow: 3px 2px 4px #777;  
+    background-color: #bde6eb;
+    border: 1px solid white;
+    /* color: black; */
+}
+
+h1 {
+    text-align: center;
+}
+
+#term-txt {
+    text-shadow: 3px 2px 4px #777;
+    color: white;
+}
+
+.glyphicon {
+    color: pink;
+}
+
+.item {
+    padding: 5px;
+    float: left;
+    margin-right: 20px;
+    color: white;
+    text-shadow: 3px 2px 4px #777;
+}
